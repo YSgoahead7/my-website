@@ -1,0 +1,130 @@
+ *{
+     padding: 0;
+     margin: 0;
+ }
+ header{
+     height: 100px;
+      background-image: linear-gradient(to right, #4A707A 70%, #7697A0 30% );
+  }
+  header div{
+      background-color: #DDDDDA;
+      width: 30%;
+      height: 100px;
+      float: right;
+  }
+   div img{
+      width: 19%;
+      border-radius: 50%;
+       padding: 0px;
+       float: right;
+       padding: 1px 10px;
+   }
+   div #ysgoahead{
+       float: left;
+       padding: 35px 10px;
+       font-family: 'Noto Sans JP', sans-serif;
+    }
+     nav{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+       }
+    nav ul{
+        float: left;
+        }
+    nav li{
+        display: inline-block;
+      }
+    nav li a{
+         text-align: center;
+      text-decoration: none;
+      display: block;
+      padding: 0px 135px;
+      line-height: 100px;
+      color: white;
+       font-family: 'Cairo', sans-serif;
+       }
+ nav li a:hover{
+     background-color: white;
+     color: black;
+      }
+main{
+    width: 70%;
+    height: 450px;
+    background-color: rgba(255, 0, 0, 0.37);
+    float: right;
+    border-top: 3px solid white;
+    animation-name: changebackground;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ }
+@keyframes changebackground{
+    0%{
+        background-color: #DDDDDA ;
+    }
+    50%{
+        background-color: #7697A0 ;
+    }
+    100%{
+        background-color: #4A707A ;
+    }
+}
+    main #article{
+       width: 100%;
+        height: 450px;
+       position: relative;
+   }
+   #box{
+       padding: 15px;
+       width: 400px;
+       height: 160px;
+       position: absolute;
+       background-color: rgb(255, 255, 255);
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       text-align: center;
+       font-family: 'Cairo', sans-serif;
+   }
+   #box h1{
+       border-bottom: 2px solid red;
+       padding-bottom: 10px;
+    }
+    #box p{
+        text-align: center;
+    }
+aside{
+    width: 30%;
+    height: 450px;
+    text-align: center;
+   }
+ aside img{
+     width: 90%;
+     padding: 4px 22px;
+   }
+   aside #learn{
+     padding: 18px 0px;
+    font-family: 'Cairo', sans-serif;
+   }
+aside #border{
+    border: 1px double red;
+}
+aside #icon{
+    width: 40px;
+    padding: 20px 0px;
+    border-bottom: solid 2px red;
+    padding-bottom: 10px;
+    opacity: 0.8;
+   }
+   aside #icon:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    border-bottom: solid 2px black;
+    }
+     footer{
+        text-align: center;
+     }
+footer img{
+    width: 450px;
+    margin: 10px;
+    }
